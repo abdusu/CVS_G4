@@ -16,7 +16,7 @@ namespace CVS_G4
         public logIn()
         {
             InitializeComponent();
-            Connect();
+            //Connect();
         }
 
         private void Connect()
