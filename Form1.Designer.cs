@@ -157,7 +157,7 @@
             comUser.Font = new Font("Segoe UI", 10F);
             comUser.ForeColor = Color.FromArgb(68, 88, 112);
             comUser.ItemHeight = 30;
-            comUser.Items.AddRange(new object[] { "Admin", "User" });
+            comUser.Items.AddRange(new object[] { "Admin", "Registrars" });
             comUser.Location = new Point(105, 255);
             comUser.Name = "comUser";
             comUser.ShadowDecoration.CustomizableEdges = customizableEdges8;

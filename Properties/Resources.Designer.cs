@@ -73,6 +73,16 @@ namespace CVS_G4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap excel {
+            get {
+                object obj = ResourceManager.GetObject("excel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap loginpan0 {
             get {
                 object obj = ResourceManager.GetObject("loginpan0", resourceCulture);
@@ -116,6 +126,26 @@ namespace CVS_G4.Properties {
         internal static System.Drawing.Bitmap school_logo_with_a_modern_design_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("school logo with a modern design-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap student_icon {
+            get {
+                object obj = ResourceManager.GetObject("student_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap studicon {
+            get {
+                object obj = ResourceManager.GetObject("studicon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

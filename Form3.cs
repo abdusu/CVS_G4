@@ -10,14 +10,19 @@ using System.Windows.Forms;
 
 namespace CVS_G4
 {
-    public partial class addUser : Form
+    public partial class addStudent : Form
     {
-        public addUser()
+        public addStudent()
         {
             InitializeComponent();
         }
 
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        private void guna2TextBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
         {
 
         }
