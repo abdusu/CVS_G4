@@ -47,6 +47,8 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -64,10 +66,12 @@
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
+            guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).BeginInit();
             SuspendLayout();
             // 
             // guna2ControlBox1
@@ -177,7 +181,7 @@
             btnLogin.ForeColor = Color.White;
             btnLogin.HoverState.FillColor = Color.Navy;
             btnLogin.HoverState.FillColor2 = Color.FromArgb(0, 192, 192);
-            btnLogin.Location = new Point(105, 354);
+            btnLogin.Location = new Point(100, 354);
             btnLogin.Name = "btnLogin";
             btnLogin.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnLogin.Size = new Size(252, 37);
@@ -264,30 +268,45 @@
             // guna2PictureBox2
             // 
             guna2PictureBox2.BackColor = Color.WhiteSmoke;
-            guna2PictureBox2.CustomizableEdges = customizableEdges21;
+            guna2PictureBox2.CustomizableEdges = customizableEdges23;
             guna2PictureBox2.Image = Properties.Resources.loginpan01;
             guna2PictureBox2.ImageRotate = 0F;
             guna2PictureBox2.Location = new Point(3, 0);
             guna2PictureBox2.Name = "guna2PictureBox2";
-            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            guna2PictureBox2.Size = new Size(465, 595);
+            guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2PictureBox2.Size = new Size(450, 595);
             guna2PictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox2.TabIndex = 7;
             guna2PictureBox2.TabStop = false;
+            guna2PictureBox2.Click += guna2PictureBox2_Click;
             // 
             // guna2PictureBox3
             // 
             guna2PictureBox3.BackColor = Color.WhiteSmoke;
-            guna2PictureBox3.CustomizableEdges = customizableEdges19;
+            guna2PictureBox3.CustomizableEdges = customizableEdges21;
             guna2PictureBox3.Image = Properties.Resources.loginpancertificatever;
             guna2PictureBox3.ImageRotate = 0F;
-            guna2PictureBox3.Location = new Point(300, 42);
+            guna2PictureBox3.Location = new Point(295, 42);
             guna2PictureBox3.Name = "guna2PictureBox3";
-            guna2PictureBox3.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2PictureBox3.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2PictureBox3.Size = new Size(301, 293);
             guna2PictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             guna2PictureBox3.TabIndex = 8;
             guna2PictureBox3.TabStop = false;
+            // 
+            // guna2PictureBox4
+            // 
+            guna2PictureBox4.BackColor = Color.WhiteSmoke;
+            guna2PictureBox4.CustomizableEdges = customizableEdges19;
+            guna2PictureBox4.Image = Properties.Resources.school_logo_with_a_modern_design_removebg_preview;
+            guna2PictureBox4.ImageRotate = 0F;
+            guna2PictureBox4.Location = new Point(505, 0);
+            guna2PictureBox4.Name = "guna2PictureBox4";
+            guna2PictureBox4.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2PictureBox4.Size = new Size(152, 114);
+            guna2PictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
+            guna2PictureBox4.TabIndex = 9;
+            guna2PictureBox4.TabStop = false;
             // 
             // logIn
             // 
@@ -295,6 +314,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(1184, 621);
+            Controls.Add(guna2PictureBox4);
             Controls.Add(guna2PictureBox3);
             Controls.Add(guna2PictureBox2);
             Controls.Add(guna2Panel1);
@@ -310,6 +330,7 @@
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).EndInit();
+            ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).EndInit();
             ResumeLayout(false);
         }
 
@@ -327,5 +348,6 @@
         private Guna.UI2.WinForms.Guna2GradientButton btnLogin;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
     }
 }

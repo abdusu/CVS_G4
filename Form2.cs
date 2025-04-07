@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CVS_G4
 {
-    public partial class Form2 : Form
+    public partial class Admin : Form
     {
-        public Form2()
+        public Admin()
         {
             InitializeComponent();
         }
@@ -23,6 +23,31 @@ namespace CVS_G4
         }
 
         private void Form2_MouseCaptureChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2ControlBox2_Click(object sender, EventArgs e)
         {
 
         }

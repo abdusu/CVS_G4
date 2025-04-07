@@ -16,7 +16,7 @@ namespace CVS_G4
         public logIn()
         {
             InitializeComponent();
-            //Connect();
+            Connect();
         }
 
         private void Connect()
@@ -26,7 +26,7 @@ namespace CVS_G4
                 string connectionString = "Server=localhost;Database=cvs_g4;User Id=root;Password=abdu;";
                 con = new MySqlConnection(connectionString);
                 con.Open();
-                MessageBox.Show("Database connected successfully!");
+                //MessageBox.Show("Database connected successfully!");
             }
             catch (Exception ex)
             {
@@ -55,10 +55,19 @@ namespace CVS_G4
             string pass = txtPassword.Text.Trim();
             string utype = comUser.SelectedItem?.ToString();
 
+            //MessageBox.Show(uname +pass+utype);
+
+
+
             if (string.IsNullOrEmpty(uname) || string.IsNullOrEmpty(pass) || string.IsNullOrEmpty(utype))
             {
                 MessageBox.Show("Please enter all the required fields.");
+                txtName.Clear();
+                txtPassword.Clear();
+                comUser.SelectedIndex = -1;
+                txtName.Focus();
                 return;
+
             }
 
             try
@@ -101,6 +110,10 @@ namespace CVS_G4
 
         }
 
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
