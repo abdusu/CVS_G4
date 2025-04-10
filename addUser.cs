@@ -21,5 +21,10 @@ namespace CVS_G4
         {
 
         }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

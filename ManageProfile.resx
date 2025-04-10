@@ -120,15 +120,4 @@
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>72</value>
-  </metadata>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Education is the key to unlocking a world of possibilities, shaping young minds into leaders, 
-thinkers, and innovators.  Every student carries a unique story, a dream waiting to be realized,
-and a journey filled with learning and growth.  Here, we celebrate curiosity, determination, 
-and the endless pursuit of knowledge.  Together, we build a community where creativity thrives, 
-challenges inspire, and success is not just measured by grades, ut by the impact we create in the world. 
-As students, you are the future—bold, bright, and unstoppable.</value>
-  </data>
 </root>

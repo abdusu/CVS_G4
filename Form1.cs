@@ -55,10 +55,6 @@ namespace CVS_G4
             string pass = txtPassword.Text.Trim();
             string utype = comUser.SelectedItem?.ToString();
 
-            //MessageBox.Show(uname +pass+utype);
-
-
-
             if (string.IsNullOrEmpty(uname) || string.IsNullOrEmpty(pass) || string.IsNullOrEmpty(utype))
             {
                 MessageBox.Show("Please enter all the required fields.");
@@ -75,8 +71,6 @@ namespace CVS_G4
                 cmd = new MySqlCommand("SELECT * FROM user WHERE uname = @uname AND password = @password AND utype = @utype", con);
                 cmd.Parameters.AddWithValue("@uname", uname);
                 cmd.Parameters.AddWithValue("@password", pass);
-                cmd.Parameters.AddWithValue("@utype", utype);
-
                 reader = cmd.ExecuteReader();
 
                 if (reader.Read())
