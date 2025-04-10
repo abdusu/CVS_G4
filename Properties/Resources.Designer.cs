@@ -83,6 +83,16 @@ namespace CVS_G4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap backicon {
+            get {
+                object obj = ResourceManager.GetObject("backicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap excel {
             get {
                 object obj = ResourceManager.GetObject("excel", resourceCulture);
@@ -116,6 +126,36 @@ namespace CVS_G4.Properties {
         internal static System.Drawing.Bitmap loginpancertificatever {
             get {
                 object obj = ResourceManager.GetObject("loginpancertificatever", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap managestudenticon222 {
+            get {
+                object obj = ResourceManager.GetObject("managestudenticon222", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap manageusericonnn {
+            get {
+                object obj = ResourceManager.GetObject("manageusericonnn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap panageProfile {
+            get {
+                object obj = ResourceManager.GetObject("panageProfile", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -176,6 +216,16 @@ namespace CVS_G4.Properties {
         internal static System.Drawing.Bitmap user11 {
             get {
                 object obj = ResourceManager.GetObject("user11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usertransparenticon {
+            get {
+                object obj = ResourceManager.GetObject("usertransparenticon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
