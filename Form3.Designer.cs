@@ -49,38 +49,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addStudent));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges85 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges86 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges89 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges90 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges91 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges92 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges93 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges94 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges95 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges96 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -89,20 +57,6 @@
             guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             addAllStudentpan = new Guna.UI2.WinForms.Guna2Panel();
-            AddOneStudentPan = new Guna.UI2.WinForms.Guna2Panel();
-            startPan = new Guna.UI2.WinForms.Guna2Panel();
-            label1 = new Label();
-            guna2TextBox11 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox7 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             panel1 = new Panel();
             pictureBox1 = new PictureBox();
@@ -112,8 +66,6 @@
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).BeginInit();
             addAllStudentpan.SuspendLayout();
-            AddOneStudentPan.SuspendLayout();
-            startPan.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             guna2Panel2.SuspendLayout();
@@ -264,7 +216,6 @@
             guna2TextBox6.ShadowDecoration.CustomizableEdges = customizableEdges58;
             guna2TextBox6.Size = new Size(400, 38);
             guna2TextBox6.TabIndex = 29;
-            guna2TextBox6.TextChanged += guna2TextBox6_TextChanged;
             // 
             // addAllStudentpan
             // 
@@ -280,294 +231,6 @@
             addAllStudentpan.ShadowDecoration.CustomizableEdges = customizableEdges88;
             addAllStudentpan.Size = new Size(1175, 720);
             addAllStudentpan.TabIndex = 30;
-            // 
-            // AddOneStudentPan
-            // 
-            AddOneStudentPan.BackColor = Color.Gray;
-            AddOneStudentPan.Controls.Add(startPan);
-            AddOneStudentPan.Controls.Add(guna2TextBox11);
-            AddOneStudentPan.Controls.Add(guna2TextBox10);
-            AddOneStudentPan.Controls.Add(guna2TextBox9);
-            AddOneStudentPan.Controls.Add(guna2TextBox8);
-            AddOneStudentPan.Controls.Add(guna2TextBox7);
-            AddOneStudentPan.Controls.Add(guna2TextBox5);
-            AddOneStudentPan.Controls.Add(guna2TextBox4);
-            AddOneStudentPan.Controls.Add(guna2TextBox3);
-            AddOneStudentPan.Controls.Add(guna2TextBox2);
-            AddOneStudentPan.Controls.Add(guna2GradientButton2);
-            AddOneStudentPan.Controls.Add(guna2TextBox1);
-            AddOneStudentPan.CustomizableEdges = customizableEdges83;
-            AddOneStudentPan.Location = new Point(3, 0);
-            AddOneStudentPan.Name = "AddOneStudentPan";
-            AddOneStudentPan.ShadowDecoration.CustomizableEdges = customizableEdges84;
-            AddOneStudentPan.Size = new Size(1175, 720);
-            AddOneStudentPan.TabIndex = 31;
-            // 
-            // startPan
-            // 
-            startPan.BackColor = Color.Gray;
-            startPan.Controls.Add(label1);
-            startPan.CustomizableEdges = customizableEdges59;
-            startPan.Location = new Point(3, 0);
-            startPan.Name = "startPan";
-            startPan.ShadowDecoration.CustomizableEdges = customizableEdges60;
-            startPan.Size = new Size(1175, 720);
-            startPan.TabIndex = 40;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(24, 65);
-            label1.Name = "label1";
-            label1.Size = new Size(655, 184);
-            label1.TabIndex = 0;
-            label1.Text = resources.GetString("label1.Text");
-            // 
-            // guna2TextBox11
-            // 
-            guna2TextBox11.BorderRadius = 5;
-            guna2TextBox11.BorderThickness = 2;
-            guna2TextBox11.CustomizableEdges = customizableEdges61;
-            guna2TextBox11.DefaultText = "";
-            guna2TextBox11.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox11.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox11.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox11.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox11.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox11.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox11.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox11.Location = new Point(474, 341);
-            guna2TextBox11.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox11.Name = "guna2TextBox11";
-            guna2TextBox11.PlaceholderText = "File Path";
-            guna2TextBox11.SelectedText = "";
-            guna2TextBox11.ShadowDecoration.CustomizableEdges = customizableEdges62;
-            guna2TextBox11.Size = new Size(400, 38);
-            guna2TextBox11.TabIndex = 39;
-            // 
-            // guna2TextBox10
-            // 
-            guna2TextBox10.BorderRadius = 5;
-            guna2TextBox10.BorderThickness = 2;
-            guna2TextBox10.CustomizableEdges = customizableEdges63;
-            guna2TextBox10.DefaultText = "";
-            guna2TextBox10.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox10.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox10.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox10.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox10.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox10.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox10.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox10.Location = new Point(474, 227);
-            guna2TextBox10.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox10.Name = "guna2TextBox10";
-            guna2TextBox10.PlaceholderText = "File Path";
-            guna2TextBox10.SelectedText = "";
-            guna2TextBox10.ShadowDecoration.CustomizableEdges = customizableEdges64;
-            guna2TextBox10.Size = new Size(400, 38);
-            guna2TextBox10.TabIndex = 38;
-            // 
-            // guna2TextBox9
-            // 
-            guna2TextBox9.BorderRadius = 5;
-            guna2TextBox9.BorderThickness = 2;
-            guna2TextBox9.CustomizableEdges = customizableEdges65;
-            guna2TextBox9.DefaultText = "";
-            guna2TextBox9.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox9.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox9.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox9.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox9.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox9.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox9.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox9.Location = new Point(474, 286);
-            guna2TextBox9.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox9.Name = "guna2TextBox9";
-            guna2TextBox9.PlaceholderText = "File Path";
-            guna2TextBox9.SelectedText = "";
-            guna2TextBox9.ShadowDecoration.CustomizableEdges = customizableEdges66;
-            guna2TextBox9.Size = new Size(400, 38);
-            guna2TextBox9.TabIndex = 37;
-            // 
-            // guna2TextBox8
-            // 
-            guna2TextBox8.BorderRadius = 5;
-            guna2TextBox8.BorderThickness = 2;
-            guna2TextBox8.CustomizableEdges = customizableEdges67;
-            guna2TextBox8.DefaultText = "";
-            guna2TextBox8.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox8.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox8.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox8.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox8.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox8.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox8.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox8.Location = new Point(53, 108);
-            guna2TextBox8.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox8.Name = "guna2TextBox8";
-            guna2TextBox8.PlaceholderText = "File Path";
-            guna2TextBox8.SelectedText = "";
-            guna2TextBox8.ShadowDecoration.CustomizableEdges = customizableEdges68;
-            guna2TextBox8.Size = new Size(400, 38);
-            guna2TextBox8.TabIndex = 36;
-            // 
-            // guna2TextBox7
-            // 
-            guna2TextBox7.BorderRadius = 5;
-            guna2TextBox7.BorderThickness = 2;
-            guna2TextBox7.CustomizableEdges = customizableEdges69;
-            guna2TextBox7.DefaultText = "";
-            guna2TextBox7.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox7.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox7.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox7.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox7.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox7.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox7.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox7.Location = new Point(53, 160);
-            guna2TextBox7.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox7.Name = "guna2TextBox7";
-            guna2TextBox7.PlaceholderText = "File Path";
-            guna2TextBox7.SelectedText = "";
-            guna2TextBox7.ShadowDecoration.CustomizableEdges = customizableEdges70;
-            guna2TextBox7.Size = new Size(400, 38);
-            guna2TextBox7.TabIndex = 35;
-            // 
-            // guna2TextBox5
-            // 
-            guna2TextBox5.BorderRadius = 5;
-            guna2TextBox5.BorderThickness = 2;
-            guna2TextBox5.CustomizableEdges = customizableEdges71;
-            guna2TextBox5.DefaultText = "";
-            guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox5.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox5.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.Location = new Point(53, 227);
-            guna2TextBox5.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox5.Name = "guna2TextBox5";
-            guna2TextBox5.PlaceholderText = "File Path";
-            guna2TextBox5.SelectedText = "";
-            guna2TextBox5.ShadowDecoration.CustomizableEdges = customizableEdges72;
-            guna2TextBox5.Size = new Size(400, 38);
-            guna2TextBox5.TabIndex = 34;
-            // 
-            // guna2TextBox4
-            // 
-            guna2TextBox4.BorderRadius = 5;
-            guna2TextBox4.BorderThickness = 2;
-            guna2TextBox4.CustomizableEdges = customizableEdges73;
-            guna2TextBox4.DefaultText = "";
-            guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Location = new Point(53, 286);
-            guna2TextBox4.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox4.Name = "guna2TextBox4";
-            guna2TextBox4.PlaceholderText = "File Path";
-            guna2TextBox4.SelectedText = "";
-            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges74;
-            guna2TextBox4.Size = new Size(400, 38);
-            guna2TextBox4.TabIndex = 33;
-            // 
-            // guna2TextBox3
-            // 
-            guna2TextBox3.BorderRadius = 5;
-            guna2TextBox3.BorderThickness = 2;
-            guna2TextBox3.CustomizableEdges = customizableEdges75;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(53, 341);
-            guna2TextBox3.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PlaceholderText = "File Path";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges76;
-            guna2TextBox3.Size = new Size(400, 38);
-            guna2TextBox3.TabIndex = 32;
-            // 
-            // guna2TextBox2
-            // 
-            guna2TextBox2.BorderRadius = 5;
-            guna2TextBox2.BorderThickness = 2;
-            guna2TextBox2.CustomizableEdges = customizableEdges77;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(474, 108);
-            guna2TextBox2.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PlaceholderText = "File Path";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges78;
-            guna2TextBox2.Size = new Size(400, 38);
-            guna2TextBox2.TabIndex = 31;
-            // 
-            // guna2GradientButton2
-            // 
-            guna2GradientButton2.Animated = true;
-            guna2GradientButton2.BorderRadius = 20;
-            guna2GradientButton2.BorderThickness = 1;
-            guna2GradientButton2.CustomizableEdges = customizableEdges79;
-            guna2GradientButton2.DisabledState.BorderColor = Color.DarkGray;
-            guna2GradientButton2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2GradientButton2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2GradientButton2.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            guna2GradientButton2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientButton2.FillColor = Color.Black;
-            guna2GradientButton2.FillColor2 = Color.Cyan;
-            guna2GradientButton2.Font = new Font("Bookman Old Style", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2GradientButton2.ForeColor = Color.White;
-            guna2GradientButton2.HoverState.FillColor = Color.Navy;
-            guna2GradientButton2.HoverState.FillColor2 = Color.FromArgb(0, 192, 192);
-            guna2GradientButton2.Location = new Point(362, 423);
-            guna2GradientButton2.Name = "guna2GradientButton2";
-            guna2GradientButton2.ShadowDecoration.CustomizableEdges = customizableEdges80;
-            guna2GradientButton2.Size = new Size(183, 37);
-            guna2GradientButton2.TabIndex = 30;
-            guna2GradientButton2.Text = "Save";
-            // 
-            // guna2TextBox1
-            // 
-            guna2TextBox1.BorderRadius = 5;
-            guna2TextBox1.BorderThickness = 2;
-            guna2TextBox1.CustomizableEdges = customizableEdges81;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Bookman Old Style", 9.75F, FontStyle.Bold);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(474, 160);
-            guna2TextBox1.Margin = new Padding(4, 3, 4, 3);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PlaceholderText = "File Path";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges82;
-            guna2TextBox1.Size = new Size(400, 38);
-            guna2TextBox1.TabIndex = 29;
             // 
             // guna2GradientButton1
             // 
@@ -604,7 +267,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(204, 755);
             panel1.TabIndex = 31;
-            panel1.Paint += panel1_Paint;
             // 
             // pictureBox1
             // 
@@ -725,15 +387,11 @@
             ClientSize = new Size(1095, 605);
             Controls.Add(panel1);
             Controls.Add(addAllStudentpan);
-            Controls.Add(guna2Panel2);
             FormBorderStyle = FormBorderStyle.None;
             Name = "addStudent";
             Text = "addStudent";
             ((System.ComponentModel.ISupportInitialize)guna2DataGridView1).EndInit();
             addAllStudentpan.ResumeLayout(false);
-            AddOneStudentPan.ResumeLayout(false);
-            startPan.ResumeLayout(false);
-            startPan.PerformLayout();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             guna2Panel2.ResumeLayout(false);
@@ -758,18 +416,5 @@
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2Panel AddOneStudentPan;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox11;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2Panel startPan;
-        private Label label1;
     }
 }
