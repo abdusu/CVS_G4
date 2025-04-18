@@ -136,6 +136,12 @@
   <data name="panageProfile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panageProfile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="addicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addicon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="regisaddicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regisaddicon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="manageusericonnn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\manageusericonnn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +156,9 @@
   </data>
   <data name="loginpancertificatever" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\loginpancertificatever.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usertransparenticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usertransparenticon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="addstudent image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addstudent image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +175,7 @@
   <data name="excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="usertransparenticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usertransparenticon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="backicon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backicon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

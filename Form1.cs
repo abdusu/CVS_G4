@@ -65,36 +65,47 @@ namespace CVS_G4
                 return;
 
             }
-
-            try
+            if (utype == "Admin")
             {
-                cmd = new MySqlCommand("SELECT * FROM user WHERE uname = @uname AND password = @password AND utype = @utype", con);
-                cmd.Parameters.AddWithValue("@uname", uname);
-                cmd.Parameters.AddWithValue("@password", pass);
-                reader = cmd.ExecuteReader();
-
-                if (reader.Read())
+                try
                 {
-                    string userId = reader["id"].ToString();
-                    this.Hide();
-                    //Form2 newForm = new Form2(userId, uname, utype);
-                    //newForm.Show();
+                    cmd = new MySqlCommand("SELECT * FROM admin WHERE UserName = @uname AND Password = @password", con);
+                    cmd.Parameters.AddWithValue("@uname", uname);
+                    cmd.Parameters.AddWithValue("@password", pass);
+                    reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        string userId = reader["id"].ToString();
+                        byte[] imageBytes = (byte[])reader["AdminPhoto"];
+                        using (MemoryStream ms = new MemoryStream(imageBytes))
+                        {
+                             pictureBox1.Image = Image.FromStream(ms);
+                        }
+                        
+                        
+                        this.Hide();
+                        Admin newForm = new Admin(userId, uname, pictureBox1.Image);
+                        newForm.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username and password do not match! Please try again.");
+                        txtName.Clear();
+                        txtPassword.Clear();
+                        comUser.SelectedIndex = -1;
+                        txtName.Focus();
+                    }
+
+                    reader.Close();
                 }
-                else
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Username and password do not match! Please try again.");
-                    txtName.Clear();
-                    txtPassword.Clear();
-                    comUser.SelectedIndex = -1;
-                    txtName.Focus();
+                    MessageBox.Show("Login failed! Please try again. Error: " + ex.Message);
                 }
 
-                reader.Close();
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Login failed! Please try again. Error: " + ex.Message);
-            }
+           
 
 
 

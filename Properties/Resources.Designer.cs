@@ -63,6 +63,16 @@ namespace CVS_G4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap addicon {
+            get {
+                object obj = ResourceManager.GetObject("addicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap addmin_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("addmin-removebg-preview", resourceCulture);
@@ -86,6 +96,16 @@ namespace CVS_G4.Properties {
         internal static System.Drawing.Bitmap backicon {
             get {
                 object obj = ResourceManager.GetObject("backicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap backicon2 {
+            get {
+                object obj = ResourceManager.GetObject("backicon2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +186,16 @@ namespace CVS_G4.Properties {
         internal static System.Drawing.Bitmap password {
             get {
                 object obj = ResourceManager.GetObject("password", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap regisaddicon {
+            get {
+                object obj = ResourceManager.GetObject("regisaddicon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

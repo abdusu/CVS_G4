@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,13 @@ namespace CVS_G4
 {
     public partial class Admin : Form
     {
-        public Admin()
+        public Admin(string username, string role, Image photo)
         {
             InitializeComponent();
+
+            label1.Text = username;
+            lblUsername.Text = role;
+            adminphoto.Image = photo;
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -50,6 +55,13 @@ namespace CVS_G4
         private void guna2ControlBox2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            logIn newForm = new logIn();
+            newForm.Show();
         }
     }
 }
