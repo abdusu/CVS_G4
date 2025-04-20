@@ -63,17 +63,21 @@
             txtName = new Guna.UI2.WinForms.Guna2TextBox();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             label1 = new Label();
+            userImage = new PictureBox();
+            AdminImage = new PictureBox();
+            logoImage = new PictureBox();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            pictureBox1 = new PictureBox();
             guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)userImage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)AdminImage).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)logoImage).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // guna2ControlBox1
@@ -123,7 +127,7 @@
             // 
             // guna2Panel1
             // 
-            guna2Panel1.BackColor = Color.White;
+            guna2Panel1.BackColor = Color.Transparent;
             guna2Panel1.BorderColor = SystemColors.MenuHighlight;
             guna2Panel1.BorderRadius = 20;
             guna2Panel1.BorderThickness = 2;
@@ -135,7 +139,7 @@
             guna2Panel1.Controls.Add(label1);
             guna2Panel1.CustomBorderColor = Color.WhiteSmoke;
             guna2Panel1.CustomizableEdges = customizableEdges17;
-            guna2Panel1.FillColor = Color.Transparent;
+            guna2Panel1.FillColor = Color.White;
             guna2Panel1.Location = new Point(680, 99);
             guna2Panel1.Name = "guna2Panel1";
             guna2Panel1.ShadowDecoration.BorderRadius = 10;
@@ -263,6 +267,39 @@
             label1.TabIndex = 0;
             label1.Text = "WELLCOME";
             // 
+            // userImage
+            // 
+            userImage.BackColor = Color.Transparent;
+            userImage.Location = new Point(418, 331);
+            userImage.Name = "userImage";
+            userImage.Size = new Size(100, 90);
+            userImage.SizeMode = PictureBoxSizeMode.StretchImage;
+            userImage.TabIndex = 12;
+            userImage.TabStop = false;
+            userImage.Visible = false;
+            // 
+            // AdminImage
+            // 
+            AdminImage.BackColor = Color.Transparent;
+            AdminImage.Location = new Point(476, 453);
+            AdminImage.Name = "AdminImage";
+            AdminImage.Size = new Size(100, 90);
+            AdminImage.SizeMode = PictureBoxSizeMode.StretchImage;
+            AdminImage.TabIndex = 10;
+            AdminImage.TabStop = false;
+            AdminImage.Visible = false;
+            // 
+            // logoImage
+            // 
+            logoImage.BackColor = Color.Transparent;
+            logoImage.Location = new Point(574, 331);
+            logoImage.Name = "logoImage";
+            logoImage.Size = new Size(100, 90);
+            logoImage.SizeMode = PictureBoxSizeMode.StretchImage;
+            logoImage.TabIndex = 11;
+            logoImage.TabStop = false;
+            logoImage.Visible = false;
+            // 
             // guna2Elipse1
             // 
             guna2Elipse1.TargetControl = this;
@@ -310,29 +347,21 @@
             guna2PictureBox4.TabIndex = 9;
             guna2PictureBox4.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            pictureBox1.Location = new Point(496, 400);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(100, 90);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 10;
-            pictureBox1.TabStop = false;
-            pictureBox1.Visible = false;
-            // 
             // logIn
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(1184, 621);
+            Controls.Add(userImage);
+            Controls.Add(AdminImage);
             Controls.Add(guna2Panel1);
             Controls.Add(guna2PictureBox4);
+            Controls.Add(logoImage);
             Controls.Add(guna2PictureBox3);
             Controls.Add(guna2PictureBox2);
             Controls.Add(co);
             Controls.Add(guna2ControlBox2);
-            Controls.Add(pictureBox1);
             Controls.Add(guna2ControlBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "logIn";
@@ -341,10 +370,12 @@
             guna2Panel1.ResumeLayout(false);
             guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)userImage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)AdminImage).EndInit();
+            ((System.ComponentModel.ISupportInitialize)logoImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -362,7 +393,9 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
-        private PictureBox pictureBox1;
+        private PictureBox AdminImage;
         private Guna.UI2.WinForms.Guna2ControlBox co;
+        private PictureBox logoImage;
+        private PictureBox userImage;
     }
 }

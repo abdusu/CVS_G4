@@ -403,11 +403,11 @@
             guna2ControlBox4.HoverState.FillColor = Color.Red;
             guna2ControlBox4.HoverState.IconColor = Color.White;
             guna2ControlBox4.IconColor = Color.White;
-            guna2ControlBox4.Location = new Point(1005, 3);
+            guna2ControlBox4.Location = new Point(1010, 8);
             guna2ControlBox4.Name = "guna2ControlBox4";
             guna2ControlBox4.PressedColor = Color.Transparent;
             guna2ControlBox4.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            guna2ControlBox4.Size = new Size(31, 36);
+            guna2ControlBox4.Size = new Size(26, 36);
             guna2ControlBox4.TabIndex = 48;
             // 
             // co
@@ -419,10 +419,10 @@
             co.HoverState.FillColor = Color.Silver;
             co.HoverState.IconColor = Color.White;
             co.IconColor = Color.White;
-            co.Location = new Point(968, 3);
+            co.Location = new Point(973, 8);
             co.Name = "co";
             co.ShadowDecoration.CustomizableEdges = customizableEdges19;
-            co.Size = new Size(31, 36);
+            co.Size = new Size(26, 36);
             co.TabIndex = 49;
             // 
             // guna2ControlBox5
@@ -434,10 +434,10 @@
             guna2ControlBox5.HoverState.FillColor = Color.Silver;
             guna2ControlBox5.HoverState.IconColor = Color.Black;
             guna2ControlBox5.IconColor = Color.White;
-            guna2ControlBox5.Location = new Point(940, 3);
+            guna2ControlBox5.Location = new Point(945, 8);
             guna2ControlBox5.Name = "guna2ControlBox5";
             guna2ControlBox5.ShadowDecoration.CustomizableEdges = customizableEdges21;
-            guna2ControlBox5.Size = new Size(31, 36);
+            guna2ControlBox5.Size = new Size(26, 36);
             guna2ControlBox5.TabIndex = 50;
             // 
             // Admin

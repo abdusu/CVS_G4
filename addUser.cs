@@ -103,6 +103,16 @@ namespace CVS_G4
         }
 
 
+        public byte[] ImageToByteArray(Image image)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                image.Save(ms, image.RawFormat);
+                return ms.ToArray();
+            }
+        }
+
+
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
 
@@ -278,12 +288,16 @@ namespace CVS_G4
             }
 
             // Convert image to byte[]
-            MemoryStream ms = new MemoryStream();
-            schoolLogo.Image.Save(ms, schoolLogo.Image.RawFormat);
-            byte[] photoData = ms.ToArray();
-            MemoryStream ms1 = new MemoryStream();
-            userPhoto.Image.Save(ms, userPhoto.Image.RawFormat);
-            byte[] photoData1 = ms.ToArray();
+            //MemoryStream ms = new MemoryStream();
+            //schoolLogo.Image.Save(ms, schoolLogo.Image.RawFormat);
+            //byte[] photoData = ms.ToArray();
+            //MemoryStream ms1 = new MemoryStream();
+            //userPhoto.Image.Save(ms, userPhoto.Image.RawFormat);
+            //byte[] photoData1 = ms.ToArray();
+
+
+            byte[] userImageBytes = ImageToByteArray(userPhoto.Image);
+            byte[] logoImageBytes = ImageToByteArray(schoolLogo.Image);
             try
             {
 
@@ -296,9 +310,9 @@ namespace CVS_G4
                 cmd.Parameters.AddWithValue("@UserName", txtUserName.Text.Trim());
                 cmd.Parameters.AddWithValue("@Password", txtUserPassword.Text.Trim());
                 cmd.Parameters.AddWithValue("@FullName", txtUserFullName.Text.Trim());
-                cmd.Parameters.AddWithValue("@user_photo", photoData1);
+                cmd.Parameters.AddWithValue("@user_photo", userImageBytes);
                 cmd.Parameters.AddWithValue("@schol_name", txtSchoolName.Text);
-                cmd.Parameters.AddWithValue("@school_logo", photoData);
+                cmd.Parameters.AddWithValue("@school_logo", logoImageBytes);
                 cmd.Parameters.AddWithValue("@school_code", txtSchoolCode.Text.Trim());
                 cmd.Parameters.AddWithValue("@adress", txtAddress.Text.Trim());
 

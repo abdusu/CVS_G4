@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <CalculationMode>Interpretation</CalculationMode>
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="1">
+      <StudentInformation Ref="2" type="Stimulsoft.Report.Dictionary.StiBusinessObject" isKey="true">
+        <Alias>StudentInformation</Alias>
+        <BusinessObjects isList="true" count="0" />
+        <Category />
+        <Columns isList="true" count="0" />
+        <Dictionary isRef="1" />
+        <Guid>08522dc822744e84a99af9af70f21062</Guid>
+        <Name>StudentInformation</Name>
+      </StudentInformation>
+    </BusinessObjects>
+    <Databases isList="true" count="0" />
+    <DataSources isList="true" count="0" />
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <UserFunctions isList="true" count="0" />
+    <Variables isList="true" count="11">
+      <value>,FullName,FullName,,System.String,,False,False,False,False,,ae26858a613b417391180d56ac31d313</value>
+      <value>,SchoolName,SchoolName,,System.String,,False,False,False,False,,d62c91b85f144f27bbe2c49a79c7b7d8</value>
+      <value>,Collage,Collage,,System.String,,False,False,False,False,,_x0031_736eeeef2c045b1818ccba301b3c65c</value>
+      <value>,Department,Department,,System.String,,False,False,False,False,,de6dca866c3247e587a4f4886811d170</value>
+      <value>,RegistrarName,RegistrarName,,System.String,,False,False,False,False,,df488cca459045eab6c9d2573453cd8e</value>
+      <value>,QRCODE,QRCODE,,System.String,,False,False,False,False,,fae5b1d9cb6749d9af736a5853901cb6</value>
+      <value>,GPA,GPA,,System.Double,,False,False,False,False,,_x0039_7dd014c815945fd986ab67a55c6b522</value>
+      <value>,Logo,Logo,,System.Drawing.Image,,False,False,False,False,,_x0032_47189c23ff94b76ae25f284c47dd600</value>
+      <value>,photo,photo,,System.Drawing.Image,,False,False,False,False,,_x0038_fe8b346fda34b50948e8dc69e452826</value>
+      <value>,Datee,Datee,,System.String,,False,False,False,False,,_x0031_1303b5e5ad4490293329b96729774de</value>
+      <value>,Batch,Batch,,System.String,,False,False,False,False,,da10d1d2e665451d93cba651b6e59fc0</value>
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>84d960b55de146089f96db6baf99ad8e</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="3" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="31">
+        <Image1 Ref="4" type="Image" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.01,0.29,1.2,1.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <IconColor>68, 114, 196</IconColor>
+          <ImageData>{photo}</ImageData>
+          <Name>Image1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Stretch>True</Stretch>
+        </Image1>
+        <Image2 Ref="5" type="Image" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.66,0.29,1.2,1.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <IconColor>68, 114, 196</IconColor>
+          <ImageData>{Logo}</ImageData>
+          <Name>Image2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Stretch>True</Stretch>
+        </Image2>
+        <Text1 Ref="6" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.21,1.31,5.33,0.51</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Niagara Engraved,40,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Certificate of Graduation</Text>
+          <TextBrush>[100:84:0]</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text1>
+        <Text2 Ref="7" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.21,0.05,5.45,0.79</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Georgia,28,Bold</Font>
+          <Name>Text2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SchoolName}</Text>
+          <TextBrush>[83:69:22]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text2>
+        <Text3 Ref="8" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.4,2.57,5.02,0.37</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,24,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text3</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>This is to certify that</Text>
+          <TextBrush>[83:69:22]</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text3>
+        <Text4 Ref="9" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.21,3.24,5.45,0.44</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,28,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text4</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{FullName}</Text>
+          <TextBrush>[100:84:0]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text4>
+        <Text5 Ref="10" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.08,4.02,2.04,0.36</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Cambria,18,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text5</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Gratuated From </Text>
+          <TextBrush>[83:69:22]</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text5>
+        <Text6 Ref="11" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.21,4.02,4.13,0.37</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Tahoma,18,Bold</Font>
+          <Name>Text6</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{SchoolName}</Text>
+          <TextBrush>[100:84:0]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text6>
+        <Text7 Ref="12" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.2,4.81,1.19,0.36</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Calibri,18,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text7</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>COLAGE OF</Text>
+          <TextBrush>[83:69:22]</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text7>
+        <Text8 Ref="13" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.39,4.81,4.87,0.36</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Tahoma,16,Bold</Font>
+          <Name>Text8</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{Collage}</Text>
+          <TextBrush>[100:84:0]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text8>
+        <Text9 Ref="14" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.2,5.41,2.12,0.44</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Calibri,18,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text9</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Bacheler of Degree in</Text>
+          <TextBrush>[83:69:22]</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text9>
+        <Text11 Ref="15" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>3.32,5.41,4.05,0.37</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Tahoma,18,Bold</Font>
+          <Name>Text11</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{Department}</Text>
+          <TextBrush>[100:84:0]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text11>
+        <Text12 Ref="16" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.18,6.85,5.14,0.44</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Calibri,18,Bold</Font>
+          <Name>Text12</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>With Comulative Grade Point average (CGPA) Of</Text>
+          <TextBrush>[83:69:22]</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text12>
+        <Text13 Ref="17" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>6.32,6.85,1.16,0.44</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Tahoma,22,Bold</Font>
+          <Name>Text13</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{GPA}</Text>
+          <TextBrush>[100:84:0]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text13>
+        <Text10 Ref="18" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.16,6,0.53,0.36</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Calibri,18,Bold</Font>
+          <Name>Text10</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>On</Text>
+          <TextBrush>[83:69:22]</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text10>
+        <Text14 Ref="19" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.9,6,2.62,0.36</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Tahoma,20,Bold</Font>
+          <Name>Text14</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{Datee}</Text>
+          <TextBrush>[100:84:0]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text14>
+        <RichText1 Ref="20" type="Stimulsoft.Report.Components.StiRichText" isKey="true">
+          <BackColor>Transparent</BackColor>
+          <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+          <ClientRectangle>0.97,8.15,5.87,0.41</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>RichText1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>__LP___x005C_rtf1_x005C_ansi_x005C_ansicpg1252_x005C_deff0_x005C_nouicompat_x005C_deflang1033__LP___x005C_fonttbl__LP___x005C_f0_x005C_fnil_x005C_fcharset0_x0020_Cambria_x003B___RP____RP___x000D__x000A___LP___x005C_colortbl_x0020__x003B__x005C_red83_x005C_green69_x005C_blue22_x003B___RP___x000D__x000A___LP___x005C__x002A__x005C_generator_x0020_Riched20_x0020_10.0.19041__RP___x005C_viewkind4_x005C_uc1_x0020__x000D__x000A__x005C_pard_x005C_qc_x005C_cf1_x005C_b_x005C_f0_x005C_fs24_x0020_The_x0020_Orginal_x0020_Diploma_x0020_and_x0020_Transcript_x0020_will_x0020_be_x0020_issuedup_x0020_on_x0020_the_x0020_discharge_x0020_of_x0020__x005C_par_x000D__x000A_cost_x0020_sharing_x0020_duty._x005C_par_x000D__x000A___RP___x000D__x000A_</Text>
+        </RichText1>
+        <BarCode1 Ref="21" type="Stimulsoft.Report.BarCodes.StiBarCode" isKey="true">
+          <AutoScale>True</AutoScale>
+          <BackColor>Transparent</BackColor>
+          <BarCodeType Ref="22" type="Stimulsoft.Report.BarCodes.StiQRCodeBarCodeType" isKey="true">
+            <BodyBrush>EmptyBrush</BodyBrush>
+            <EyeBallBrush>EmptyBrush</EyeBallBrush>
+            <EyeFrameBrush>EmptyBrush</EyeFrameBrush>
+          </BarCodeType>
+          <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+          <ClientRectangle>0.2,9.13,1.01,1.05</ClientRectangle>
+          <Code>{QRCODE}</Code>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,8,Bold,Pixel</Font>
+          <ForeColor>0, 0, 0</ForeColor>
+          <Name>BarCode1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <ShowQuietZones>False</ShowQuietZones>
+        </BarCode1>
+        <ElectronicSignature1 Ref="23" type="Stimulsoft.Report.Components.StiElectronicSignature" isKey="true">
+          <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.19,9.13,2.26,0.84</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Description Ref="24" type="Stimulsoft.Report.Components.StiSignatureDescription" isKey="true" />
+          <Draw Ref="25" type="Stimulsoft.Report.Components.StiSignatureDraw" isKey="true" />
+          <Expressions isList="true" count="0" />
+          <Icon Ref="26" type="Stimulsoft.Report.Components.StiSignatureIcon" isKey="true" />
+          <Image Ref="27" type="Stimulsoft.Report.Components.StiSignatureImage" isKey="true" />
+          <Name>ElectronicSignature1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text Ref="28" type="Stimulsoft.Report.Components.StiSignatureText" isKey="true" />
+          <Type Ref="29" type="Stimulsoft.Report.Components.StiSignatureType" isKey="true">
+            <FullName>Abdlrezak sultan</FullName>
+            <Initials>A</Initials>
+          </Type>
+        </ElectronicSignature1>
+        <Shape1 Ref="30" type="Shape" isKey="true">
+          <BorderColor>Transparent</BorderColor>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0.09,1.08,0.88,0.6</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Georgia,10,Bold</Font>
+          <ForeColor>10, 17, 255</ForeColor>
+          <Name>Shape1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <ShapeType Ref="31" type="Stimulsoft.Report.Components.ShapeTypes.StiMinusShapeType" isKey="true" />
+          <Text>VERIFIED</Text>
+        </Shape1>
+        <Text15 Ref="32" type="Text" isKey="true">
+          <Border>Bottom;Black;1;Solid;False;4;Black</Border>
+          <Brush>Transparent</Brush>
+          <ClientRectangle>4.46,9.71,0.73,0.26</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Bodoni MT,11,Bold</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text15</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Registrar</Text>
+          <TextBrush>Black</TextBrush>
+          <Type>Expression</Type>
+          <VertAlignment>Center</VertAlignment>
+        </Text15>
+        <Text16 Ref="33" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.3,-1.86,0.6,0.2</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,8</Font>
+          <Name>Text16</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Georgia</Text>
+          <TextBrush>Black</TextBrush>
+        </Text16>
+        <Shape2 Ref="34" type="Shape" isKey="true">
+          <BorderColor>83, 83, 83</BorderColor>
+          <Brush>[83:69:22]</Brush>
+          <ClientRectangle>0.01,10.85,7.85,0.44</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,20,Italic</Font>
+          <ForeColor>White</ForeColor>
+          <Name>Shape2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <ShapeType Ref="35" type="Stimulsoft.Report.Components.ShapeTypes.StiRectangleShapeType" isKey="true" />
+          <Text>@devloped by Information sysstems group 4 students</Text>
+        </Shape2>
+        <Text17 Ref="36" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>5.7,10.24,2.16,0.33</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,18,Bold| Underline</Font>
+          <HorAlignment>Center</HorAlignment>
+          <Name>Text17</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{Datee}</Text>
+          <TextBrush>[83:83:83]</TextBrush>
+          <VertAlignment>Center</VertAlignment>
+        </Text17>
+        <Text18 Ref="37" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>1.52,10.36,1.08,0.32</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,14,Bold</Font>
+          <Name>Text18</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>{Batch}</Text>
+          <TextBrush>[83:83:83]</TextBrush>
+        </Text18>
+        <Text19 Ref="38" type="Text" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>2.7,10.36,1.17,0.31</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Font>Arial,14,Bold</Font>
+          <Name>Text19</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <Text>Batch</Text>
+          <TextBrush>[83:83:83]</TextBrush>
+          <Type>Expression</Type>
+        </Text19>
+        <HorizontalLinePrimitive1 Ref="39" type="HorizontalLinePrimitive" isKey="true">
+          <ClientRectangle>1.2,1.8,5.46,0.01</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="40" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Name>HorizontalLinePrimitive1</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <StartCap Ref="41" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </HorizontalLinePrimitive1>
+        <HorizontalLinePrimitive2 Ref="42" type="HorizontalLinePrimitive" isKey="true">
+          <ClientRectangle>1.21,1.82,5.45,0.01</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="43" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Name>HorizontalLinePrimitive2</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <StartCap Ref="44" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </HorizontalLinePrimitive2>
+        <HorizontalLinePrimitive3 Ref="45" type="HorizontalLinePrimitive" isKey="true">
+          <ClientRectangle>1.21,3.69,6.05,0.01</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="46" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Name>HorizontalLinePrimitive3</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <StartCap Ref="47" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </HorizontalLinePrimitive3>
+        <HorizontalLinePrimitive4 Ref="48" type="HorizontalLinePrimitive" isKey="true">
+          <ClientRectangle>0.01,10.83,7.85,0.01</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="49" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Name>HorizontalLinePrimitive4</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <StartCap Ref="50" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </HorizontalLinePrimitive4>
+        <HorizontalLinePrimitive5 Ref="51" type="HorizontalLinePrimitive" isKey="true">
+          <ClientRectangle>6.34,7.21,1.18,0.01</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="52" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Name>HorizontalLinePrimitive5</Name>
+          <Page isRef="3" />
+          <Parent isRef="3" />
+          <StartCap Ref="53" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </HorizontalLinePrimitive5>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>e7f5a492e85246c48fc2a9714d54b3ee</Guid>
+      <Margins>0.2,0.2,0.2,0.2</Margins>
+      <Name>Page1</Name>
+      <PageHeight>11.69</PageHeight>
+      <PageWidth>8.27</PageWidth>
+      <PaperSize>A4</PaperSize>
+      <Report isRef="0" />
+      <Watermark Ref="54" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
+        <Font>Arial,100</Font>
+        <ImageStretch>True</ImageStretch>
+        <ImageTransparency>211</ImageTransparency>
+        <ShowBehind>True</ShowBehind>
+        <Text>{Logo}</Text>
+        <TextBrush>Transparent</TextBrush>
+      </Watermark>
+    </Page1>
+  </Pages>
+  <PrinterSettings Ref="55" type="Stimulsoft.Report.Print.StiPrinterSettings" isKey="true" />
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportAuthor>Abdlrezak Sultan</ReportAuthor>
+  <ReportChanged>4/20/2025 1:22:48 AM</ReportChanged>
+  <ReportCreated>4/19/2025 6:42:55 PM</ReportCreated>
+  <ReportFile>D:\CVS_G4\CVS_G4\certificte.mrt</ReportFile>
+  <ReportGuid>d30119f057dd4a088d6ade1316ee6d48</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Inches</ReportUnit>
+  <ReportVersion>2025.2.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

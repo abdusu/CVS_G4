@@ -223,6 +223,16 @@ namespace CVS_G4.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap studentidicon {
+            get {
+                object obj = ResourceManager.GetObject("studentidicon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap studicon {
             get {
                 object obj = ResourceManager.GetObject("studicon", resourceCulture);

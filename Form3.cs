@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ExcelDataReader;
 using MySql.Data.MySqlClient;
+using Microsoft.VisualBasic;
 
 namespace CVS_G4
 {
@@ -35,11 +36,24 @@ namespace CVS_G4
 
         }
 
+        private void GetGPA()
+        {
+            double GPA;
+
+            while (!double.TryParse(Interaction.InputBox("PLEASE Enter GPA (1.8 to 4):"), out GPA) || GPA < 1.8 || GPA > 4)
+            {
+                MessageBox.Show("Please enter a valid GPA between 1.8 and 4.");
+            }
+
+            MessageBox.Show("Your GPA is: " + GPA);
+        }
+
+
         private void Connect()
         {
             try
             {
-                string connectionString = "Server=localhost;Database=teststudent;User Id=root;Password=abdu;";
+                string connectionString = "Server=localhost;Database=cvs_g4;User Id=root;Password=abdu;";
                 con = new MySqlConnection(connectionString);
                 con.Open();
                 //MessageBox.Show("Database connected successfully!");
@@ -82,6 +96,7 @@ namespace CVS_G4
             startpan.Visible = false;
             addAllStudentpan.Visible = false;
             AddOneStudentPan.Visible = true;
+            dataGridView1.DataSource = null;
         }
 
         private void guna2GradientButton4_Click(object sender, EventArgs e)
@@ -108,7 +123,7 @@ namespace CVS_G4
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 string filePath = openFileDialog1.FileName;
-
+                txtFilePath.Text = filePath;
                 using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
                 {
                     using (var reader = ExcelReaderFactory.CreateReader(stream))
@@ -195,30 +210,28 @@ namespace CVS_G4
             for (int i = 0; i < table.Rows.Count; i++)
             {
                 DataRow row = table.Rows[i];
-
-                string query = "INSERT INTO students (ID, name, age, city) VALUES (@ID, @name, @age, @city)";
+                //string query = "INSERT INTO students (ID, name, age, city) VALUES (@ID, @name, @age, @city)";
+                string query = "INSERT INTO students (ID, FullName, SchoolCode, Collage, Department, Batch, Address)" +
+                    " VALUES (@ID, @FullName, @SchoolCode, @Collage, @Department, @Batch, @Address)";
                 using (cmd = new MySqlCommand(query, con))
                 {
                     cmd.Parameters.AddWithValue("@ID", row["ID"]);
-                    cmd.Parameters.AddWithValue("@name", row["name"]);
-                    cmd.Parameters.AddWithValue("@age", row["age"]);
-                    cmd.Parameters.AddWithValue("@city", row["city"]);
+                    cmd.Parameters.AddWithValue("@FullName", row["FullName"]);
+                    cmd.Parameters.AddWithValue("@SchoolCode", row["SchoolCode"]);
+                    cmd.Parameters.AddWithValue("@Collage", row["Collage"]);
+                    cmd.Parameters.AddWithValue("@Department", row["Department"]);
+                    cmd.Parameters.AddWithValue("@Batch", row["Batch"]);
+                    cmd.Parameters.AddWithValue("@Address", row["Address"]);
 
                     try
                     {
-
-                        int l = cmd.ExecuteNonQuery();
-                        if (l > 0)
-                        {
-                            //dataList.Add(row["name"].ToString());
-                        }
-
+                        cmd.ExecuteNonQuery();
                     }
                     catch (MySqlException ex)
                     {
                         errorinserting++;
-                        ErrordataList.Add(row["name"].ToString());
-                        //MessageBox.Show("❌ Error inserting row " + i + ": " + ex.Message);
+                        ErrordataList.Add(row["FullName"].ToString());
+                        //MessageBox.Show( ex.Message);
                     }
                 }
 
@@ -227,13 +240,19 @@ namespace CVS_G4
             allDatas = string.Join("\n", dataList);
             if (errorinserting > 0)
             {
-                MessageBox.Show("   Error data not exported Data to MySQL ↓\n" + allData + "\n\n  ✅ successfully  exported Data to MySQL ↓\n" + allDatas, "❌ Error inserting row Name ", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("   Error data not exported Data to MySQL ↓\n" + errorinserting + " \n" + allData +
+                    "\n\n  ✅ successfully  exported Data to MySQL ↓\n" + allDatas, "❌ Error inserting row Name ", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 MessageBox.Show("✅ ALL Data exported to MySQL successfully.");
             }
 
+        }
+
+        private void guna2GradientButton3_Click(object sender, EventArgs e)
+        {
+            dataGridView1.DataSource = null;
         }
     }
 }

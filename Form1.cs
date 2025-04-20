@@ -80,12 +80,12 @@ namespace CVS_G4
                         byte[] imageBytes = (byte[])reader["AdminPhoto"];
                         using (MemoryStream ms = new MemoryStream(imageBytes))
                         {
-                             pictureBox1.Image = Image.FromStream(ms);
+                             AdminImage.Image = Image.FromStream(ms);
                         }
                         
                         
                         this.Hide();
-                        Admin newForm = new Admin(userId, uname, pictureBox1.Image);
+                        Admin newForm = new Admin(userId, uname, AdminImage.Image);
                         newForm.Show();
                     }
                     else
@@ -105,7 +105,58 @@ namespace CVS_G4
                 }
 
             }
-           
+
+
+            else if (utype == "Registrars")
+            {
+                try
+                {
+                    cmd = new MySqlCommand("SELECT * FROM user WHERE UserName = @uname AND password = @password", con);
+                    cmd.Parameters.AddWithValue("@uname", uname);
+                    cmd.Parameters.AddWithValue("@password", pass);
+                    reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        string userId = reader["id"].ToString();
+                        string FullName = reader["FullName"].ToString();
+                       
+                        string SchoolName = reader["schol_name"].ToString();
+                        byte[] logoimageBytes = (byte[])reader["school_logo"];
+                        using (MemoryStream ms = new MemoryStream(logoimageBytes))
+                        {
+                            logoImage.Image = Image.FromStream(ms);
+                        }
+                        byte[] UserimageBytes = (byte[])reader["user_photo"];
+                        using (MemoryStream ms1 = new MemoryStream(UserimageBytes))
+                        {
+                            userImage.Image = Image.FromStream(ms1);
+                        }
+                        string SchoolCode = reader["school_code"].ToString();
+                        string Adrees = reader["adress"].ToString();
+
+                        this.Hide();
+                        Registrare newForm = new Registrare(uname, FullName, SchoolName, SchoolCode, Adrees, userImage.Image, logoImage.Image);
+                        newForm.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username and password do not match! Please try again.");
+                        txtName.Clear();
+                        txtPassword.Clear();
+                        comUser.SelectedIndex = -1;
+                        txtName.Focus();
+                    }
+
+                    reader.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Login failed! Please try again. Error: " + ex.Message);
+                }
+
+            }
+
 
 
 
