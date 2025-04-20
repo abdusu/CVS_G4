@@ -35,9 +35,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -67,7 +64,6 @@
             guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox6 = new Guna.UI2.WinForms.Guna2ControlBox();
-            dataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             addAllStudentpan = new Guna.UI2.WinForms.Guna2Panel();
@@ -83,7 +79,6 @@
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             startpan = new Guna.UI2.WinForms.Guna2Panel();
             label1 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             addAllStudentpan.SuspendLayout();
             AddOneStudentPan.SuspendLayout();
             panel1.SuspendLayout();
@@ -141,57 +136,6 @@
             guna2ControlBox6.Size = new Size(31, 36);
             guna2ControlBox6.TabIndex = 11;
             // 
-            // dataGridView1
-            // 
-            dataGridView1.AllowUserToOrderColumns = true;
-            dataGridViewCellStyle1.BackColor = Color.White;
-            dataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle2.ForeColor = Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            dataGridView1.ColumnHeadersHeight = 4;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = Color.White;
-            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
-            dataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            dataGridView1.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridView1.Location = new Point(56, 108);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersVisible = false;
-            dataGridView1.Size = new Size(756, 352);
-            dataGridView1.TabIndex = 14;
-            dataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
-            dataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            dataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
-            dataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
-            dataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
-            dataGridView1.ThemeStyle.BackColor = Color.White;
-            dataGridView1.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
-            dataGridView1.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
-            dataGridView1.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridView1.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F);
-            dataGridView1.ThemeStyle.HeaderStyle.ForeColor = Color.White;
-            dataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            dataGridView1.ThemeStyle.ReadOnly = false;
-            dataGridView1.ThemeStyle.RowsStyle.BackColor = Color.White;
-            dataGridView1.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
-            dataGridView1.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F);
-            dataGridView1.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
-            dataGridView1.ThemeStyle.RowsStyle.Height = 25;
-            dataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
-            dataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            // 
             // guna2GradientButton4
             // 
             guna2GradientButton4.Animated = true;
@@ -242,7 +186,6 @@
             // addAllStudentpan
             // 
             addAllStudentpan.BackColor = SystemColors.MenuHighlight;
-            addAllStudentpan.Controls.Add(dataGridView1);
             addAllStudentpan.Controls.Add(guna2GradientButton1);
             addAllStudentpan.Controls.Add(guna2GradientButton4);
             addAllStudentpan.Controls.Add(guna2TextBox6);
@@ -500,7 +443,6 @@
             StartPosition = FormStartPosition.CenterScreen;
             Text = "addStudent";
             Load += addStudent_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             addAllStudentpan.ResumeLayout(false);
             AddOneStudentPan.ResumeLayout(false);
             panel1.ResumeLayout(false);
@@ -517,7 +459,6 @@
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox5;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox4;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox6;
-        private Guna.UI2.WinForms.Guna2DataGridView dataGridView1;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
         private Guna.UI2.WinForms.Guna2Panel addAllStudentpan;
