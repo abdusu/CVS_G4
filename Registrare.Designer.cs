@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -63,7 +64,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
@@ -82,7 +82,6 @@
             guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
             studentImage = new PictureBox();
             txtId = new Guna.UI2.WinForms.Guna2TextBox();
-            Generate = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2ControlBox4 = new Guna.UI2.WinForms.Guna2ControlBox();
             co = new Guna.UI2.WinForms.Guna2ControlBox();
             guna2ControlBox5 = new Guna.UI2.WinForms.Guna2ControlBox();
@@ -387,17 +386,6 @@
             guna2GradientButton1.Text = "Uplode Student Image";
             guna2GradientButton1.Click += guna2GradientButton1_Click;
             // 
-            // studentImage
-            // 
-            studentImage.BackColor = Color.Transparent;
-            studentImage.BorderStyle = BorderStyle.FixedSingle;
-            studentImage.Location = new Point(491, 114);
-            studentImage.Name = "studentImage";
-            studentImage.Size = new Size(143, 97);
-            studentImage.SizeMode = PictureBoxSizeMode.StretchImage;
-            studentImage.TabIndex = 7;
-            studentImage.TabStop = false;
-            // 
             // txtId
             // 
             txtId.BackColor = Color.Transparent;
@@ -423,31 +411,6 @@
             txtId.ShadowDecoration.CustomizableEdges = customizableEdges4;
             txtId.Size = new Size(252, 46);
             txtId.TabIndex = 6;
-            // 
-            // Generate
-            // 
-            Generate.Animated = true;
-            Generate.BorderRadius = 15;
-            Generate.BorderThickness = 2;
-            Generate.CustomizableEdges = customizableEdges5;
-            Generate.DisabledState.BorderColor = Color.DarkGray;
-            Generate.DisabledState.CustomBorderColor = Color.DarkGray;
-            Generate.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            Generate.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            Generate.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            Generate.FillColor = Color.Black;
-            Generate.FillColor2 = Color.Cyan;
-            Generate.Font = new Font("Bookman Old Style", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            Generate.ForeColor = Color.White;
-            Generate.HoverState.FillColor = Color.Navy;
-            Generate.HoverState.FillColor2 = Color.FromArgb(0, 192, 192);
-            Generate.Location = new Point(317, 325);
-            Generate.Name = "Generate";
-            Generate.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            Generate.Size = new Size(252, 37);
-            Generate.TabIndex = 5;
-            Generate.Text = "Genrate";
-            Generate.Click += Generate_Click;
             // 
             // guna2ControlBox4
             // 
@@ -601,14 +564,12 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1220, 628);
-            Controls.Add(panGeneratCertificate);
             Controls.Add(panel1);
             Controls.Add(panel3);
             Controls.Add(panStart);
             Controls.Add(panViewFeedBack);
             Controls.Add(panSubmitFeedBack);
             Controls.Add(panViewCertificate);
-            Controls.Add(panVerifayCertificate);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Registrare";
             StartPosition = FormStartPosition.CenterScreen;
@@ -654,5 +615,28 @@
         private PictureBox studentImage;
         private Label schollNameee;
         private Label label1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel1;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel3;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
+        private Label label3;
+        private Label label2;
+        private Label label16;
+        private Label label17;
+        private Label label10;
+        private Label label11;
+        private Label label6;
+        private Label label7;
+        private Label label4;
+        private Label label5;
+        private Label label9;
+        private Label label8;
+        private Label labelResult;
+        private Guna.UI2.WinForms.Guna2GradientButton btbStaretWebCam;
+        private PictureBox pictureBoxCamera;
+        private System.Windows.Forms.Timer timer1;
+        private ComboBox comboBoxCamera;
     }
 }
