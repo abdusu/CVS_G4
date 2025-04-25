@@ -286,7 +286,6 @@
           <Conditions isList="true" count="0" />
           <Expressions isList="true" count="0" />
           <Font>Arial,8,Bold,Pixel</Font>
-          <ForeColor>0, 0, 0</ForeColor>
           <Name>BarCode1</Name>
           <Page isRef="3" />
           <Parent isRef="3" />
@@ -489,7 +488,7 @@
       <Watermark Ref="54" type="Stimulsoft.Report.Components.StiWatermark" isKey="true">
         <Font>Arial,100</Font>
         <ImageStretch>True</ImageStretch>
-        <ImageTransparency>211</ImageTransparency>
+        <ImageTransparency>175</ImageTransparency>
         <ShowBehind>True</ShowBehind>
         <Text>{Logo}</Text>
         <TextBrush>Transparent</TextBrush>
@@ -509,10 +508,10 @@
   </ReferencedAssemblies>
   <ReportAlias>Report</ReportAlias>
   <ReportAuthor>Abdlrezak Sultan</ReportAuthor>
-  <ReportChanged>4/20/2025 1:22:48 AM</ReportChanged>
+  <ReportChanged>4/22/2025 10:57:05 AM</ReportChanged>
   <ReportCreated>4/19/2025 6:42:55 PM</ReportCreated>
   <ReportFile>D:\CVS_G4\CVS_G4\certificte.mrt</ReportFile>
-  <ReportGuid>d30119f057dd4a088d6ade1316ee6d48</ReportGuid>
+  <ReportGuid>35ef808da0c540239ae6e4dc4ca69ea3</ReportGuid>
   <ReportName>Report</ReportName>
   <ReportUnit>Inches</ReportUnit>
   <ReportVersion>2025.2.2.0</ReportVersion>

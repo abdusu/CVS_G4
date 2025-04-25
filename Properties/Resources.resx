@@ -124,11 +124,14 @@
   <data name="student_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\student_icon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="backicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="managestudenticon222" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\managestudenticon222.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="backicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="password" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon\password.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="panageProfile" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panageProfile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,17 +154,23 @@
   <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="backicon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\backicon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="[CITYPNG.COM]HD Profile User Round Blue Icon Symbol Transparent PNG - 1000x1000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\[CITYPNG.COM]HD Profile User Round Blue Icon Symbol Transparent PNG - 1000x1000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="loginpancertificatever" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\image\loginpancertificatever.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="password" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\icon\password.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="studentidicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\studentidicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backicon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\backicon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="addstudent image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addstudent image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="passward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\passward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="studicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\studicon.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,7 +187,10 @@
   <data name="excel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\excel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="studentidicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\studentidicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="login" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\login.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pen_12379772" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pen_12379772.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

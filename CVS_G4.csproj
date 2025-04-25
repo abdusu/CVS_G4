@@ -23,6 +23,7 @@
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.7.0" />
     <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.7" />
     <PackageReference Include="MySql.Data" Version="9.2.0" />
+    <PackageReference Include="ReaLTaiizor" Version="3.8.1.2" />
     <PackageReference Include="Stimulsoft.Reports.Net" Version="2025.2.2" />
   </ItemGroup>
 
@@ -42,7 +43,7 @@
   </ItemGroup>
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="cmd /c &quot;taskkill /f /im CVS_G4.exe &gt;nul 2&gt;&amp;1 || exit /b 0 &amp; ping 127.0.0.1 -n 3 &gt;nul&quot;&#xA;" />
+    <Exec Command="cmd /c &quot;taskkill /f /im CVS_G4.exe &gt;nul 2&gt;&amp;1 || exit /b 0 &amp; ping 127.0.0.1 -n 3 &gt;nul&quot;" />
   </Target>
 
 </Project>

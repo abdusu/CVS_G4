@@ -1,12 +1,16 @@
-using System;
+﻿using System;
 using System.Data;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
 
+
 namespace CVS_G4
 {
+    
+
     public partial class logIn : Form
+
     {
         private MySqlConnection con;
         private MySqlCommand cmd;
@@ -80,10 +84,10 @@ namespace CVS_G4
                         byte[] imageBytes = (byte[])reader["AdminPhoto"];
                         using (MemoryStream ms = new MemoryStream(imageBytes))
                         {
-                             AdminImage.Image = Image.FromStream(ms);
+                            AdminImage.Image = Image.FromStream(ms);
                         }
-                        
-                        
+
+
                         this.Hide();
                         Admin newForm = new Admin(userId, uname, AdminImage.Image);
                         newForm.Show();
@@ -120,7 +124,7 @@ namespace CVS_G4
                     {
                         string userId = reader["id"].ToString();
                         string FullName = reader["FullName"].ToString();
-                       
+
                         string SchoolName = reader["schol_name"].ToString();
                         byte[] logoimageBytes = (byte[])reader["school_logo"];
                         using (MemoryStream ms = new MemoryStream(logoimageBytes))
@@ -170,6 +174,7 @@ namespace CVS_G4
         {
 
         }
+
     }
 }
 

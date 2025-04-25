@@ -116,6 +116,7 @@
             guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             addRegiPann = new Guna.UI2.WinForms.Guna2Panel();
             guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            label1 = new Label();
             guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             txtUserId = new Guna.UI2.WinForms.Guna2TextBox();
             txtSchoolName = new Guna.UI2.WinForms.Guna2TextBox();
@@ -162,7 +163,6 @@
             adminPhto = new PictureBox();
             txtAdminPassword = new Guna.UI2.WinForms.Guna2TextBox();
             startPan = new Guna.UI2.WinForms.Guna2Panel();
-            label1 = new Label();
             addRegiPann.SuspendLayout();
             guna2GradientPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)schoolLogo).BeginInit();
@@ -222,6 +222,18 @@
             guna2GradientPanel2.ShadowDecoration.CustomizableEdges = customizableEdges62;
             guna2GradientPanel2.Size = new Size(939, 585);
             guna2GradientPanel2.TabIndex = 28;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(133, 3);
+            label1.Name = "label1";
+            label1.Size = new Size(622, 28);
+            label1.TabIndex = 29;
+            label1.Text = "Please fill in all required fields and select a photo before saving.";
             // 
             // guna2GradientButton4
             // 
@@ -313,7 +325,7 @@
             guna2GradientButton2.ForeColor = Color.White;
             guna2GradientButton2.HoverState.FillColor = Color.Navy;
             guna2GradientButton2.HoverState.FillColor2 = Color.FromArgb(0, 192, 192);
-            guna2GradientButton2.Location = new Point(54, 507);
+            guna2GradientButton2.Location = new Point(63, 507);
             guna2GradientButton2.Name = "guna2GradientButton2";
             guna2GradientButton2.ShadowDecoration.CustomizableEdges = customizableEdges46;
             guna2GradientButton2.Size = new Size(252, 37);
@@ -1114,18 +1126,6 @@
             startPan.ShadowDecoration.CustomizableEdges = customizableEdges66;
             startPan.Size = new Size(1175, 720);
             startPan.TabIndex = 46;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(133, 3);
-            label1.Name = "label1";
-            label1.Size = new Size(622, 28);
-            label1.TabIndex = 29;
-            label1.Text = "Please fill in all required fields and select a photo before saving.";
             // 
             // addUser
             // 

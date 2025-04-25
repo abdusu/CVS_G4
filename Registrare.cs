@@ -15,6 +15,8 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using Microsoft.VisualBasic;
 using Stimulsoft.Database;
 using static System.Data.Odbc.ODBC32;
+using Stimulsoft.Report.Components;
+using Stimulsoft.Report.Export;
 
 namespace CVS_G4
 {
@@ -23,15 +25,16 @@ namespace CVS_G4
         private MySqlConnection con;
         private MySqlCommand cmd;
         private MySqlDataReader reader;
+
         String UserName;
         String RFullName;
         String SchoolName;
         String SchoolCode;
         String Address;
         double GPA;
-        String Date= DateTime.Now.ToString("MMMM dd, yyyy");  // e.g., April 19, 2025
+        String Date = DateTime.Now.ToString("MMMM dd, yyyy");  // e.g., April 19, 2025
 
-        public Registrare(String userName, String fullName, String schoolName, String schoolCode,String address, Image UImage, Image Slogo)
+        public Registrare(String userName, String fullName, String schoolName, String schoolCode, String address, Image UImage, Image Slogo)
         {
             InitializeComponent();
             Connect();
@@ -52,6 +55,7 @@ namespace CVS_G4
             panViewCertificate.Visible = false;
             panSubmitFeedBack.Visible = false;
             panViewFeedBack.Visible = false;
+            panvrifayed.Visible = false;
         }
 
         private void Connect()
@@ -86,6 +90,52 @@ namespace CVS_G4
                 return ms.ToArray();
             }
         }
+
+        private void LoadData()
+        {
+        
+            string query = "SELECT * FROM certificate";
+            cmd = new MySqlCommand(query, con);
+            MySqlDataAdapter adapter = new MySqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            adapter.Fill(dt);
+            // Clear existing columns
+            dataGridView1.Columns.Clear();
+            // Add the rest of the columns
+            dataGridView1.Columns.Add("ID", "ID");
+            dataGridView1.Columns.Add("FullName", "FullName");
+            dataGridView1.Columns.Add("Collage", "Collage");
+            dataGridView1.Columns.Add("Department", "Department");
+            dataGridView1.Columns.Add("QRCode", "QRCode");
+            dataGridView1.Columns.Add("GPA", "GPA");
+            dataGridView1.Columns.Add("Batch", "Batch");
+            dataGridView1.Columns.Add("Date", "Date");
+            dataGridView1.Columns.Add("CertificateCode", "CertificateCode");
+            dataGridView1.Columns.Add("SchoolName", "SchoolName");
+            // Add image column with correct layout
+            DataGridViewImageColumn imgCol = new DataGridViewImageColumn();
+            imgCol.HeaderText = "Photo";
+            imgCol.Name = "Photo";
+            imgCol.ImageLayout = DataGridViewImageCellLayout.Stretch; // Prevent image stretch
+            dataGridView1.Columns.Add(imgCol);
+            // Add rows manually
+            foreach (DataRow row in dt.Rows)
+            {
+                byte[] imgBytes = row["Photo"] as byte[];
+                Image img = null;
+                if (imgBytes != null && imgBytes.Length > 0)
+                {
+                    using (MemoryStream ms = new MemoryStream(imgBytes))
+                    {
+                        img = Image.FromStream(ms);
+                    }
+                }
+                dataGridView1.Rows.Add(row["ID"], row["FullName"], row["Collage"], row["Department"], row["QRCode"], row["GPA"], row["Batch"], row["Date"], 
+                    row["CertificateCode"], row["SchoolName"], img);
+            }
+            dataGridView1.RowTemplate.Height = 100; // Adjust row height for image visibility
+           
+        }
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             panStart.Visible = false;
@@ -117,10 +167,12 @@ namespace CVS_G4
             panViewCertificate.Visible = false;
             panSubmitFeedBack.Visible = false;
             panViewFeedBack.Visible = false;
+            panvrifayed.Visible = false;
         }
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
+            panvrifayed.Visible = false;
             panStart.Visible = false;
             panGeneratCertificate.Visible = false;
             panVerifayCertificate.Visible = true;
@@ -137,6 +189,29 @@ namespace CVS_G4
             panViewCertificate.Visible = true;
             panSubmitFeedBack.Visible = false;
             panViewFeedBack.Visible = false;
+            LoadData();
+            //string query = "SELECT * FROM certificate";
+            //MySqlDataAdapter adapter = new MySqlDataAdapter(query, con);
+            //DataTable table = new DataTable();
+            //adapter.Fill(table);
+            //dataGridView1.DataSource = table;
+            //foreach (DataRow row in table.Rows)
+            //{
+            //    if (row["Photo"] != DBNull.Value)
+            //    {
+            //        byte[] imgBytes = (byte[])row["Photo"];
+            //        using (MemoryStream ms = new MemoryStream(imgBytes))
+            //        {
+            //           row["Photo"] = Image.FromStream(ms);
+            //        }
+            //    }
+            //}
+            //dataGridView1.DataSource = table;
+            //DataGridViewImageColumn imgColumn = (DataGridViewImageColumn)dataGridView1.Columns["photo"];
+            //imgColumn.ImageLayout = DataGridViewImageCellLayout.Stretch; // Stretch image to fit
+            //dataGridView1.RowTemplate.Height = 100; // Set row height
+            //dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            //dataGridView1.AutoResizeRows(DataGridViewAutoSizeRowsMode.AllCells);
         }
 
         private void guna2Button4_Click(object sender, EventArgs e)
@@ -234,6 +309,7 @@ namespace CVS_G4
                             string qrCode = " Student Nmae: " + SFullName + "\n Colage: " + Collage + "\n Batchler Degre With  Department: " + Department +
                             "\n Gratued From: " + SchoolName + " " + Batch + " Batch " + "\n Address: " + Address + "\n comulative GPA: " + GPA.ToString() +
                             "\n certificate Code: " + certificateCode + "\n\n Date: " + Date;
+
                             report.Dictionary.Variables["FullName"].Value = SFullName;
                             report.Dictionary.Variables["SchoolName"].Value = SchoolName;
                             report.Dictionary.Variables["Collage"].Value = Collage;
@@ -246,9 +322,10 @@ namespace CVS_G4
                             report.Dictionary.Variables["photo"].ValueObject = new Bitmap(studentImage.Image);
                             report.Dictionary.Variables["Logo"].ValueObject = new Bitmap(schoollog.Image);
                             reader.Close();
+
                             byte[] ususerImageBytes = ImageToByteArray(studentImage.Image);
-                            string Cquery = "INSERT INTO certificate (ID, FullName, Collage, Department, QRCode, GPA, Batch, Photo, Date, CertificateCode) " +
-                                "VALUES (@ID, @FullName, @Collage, @Department, @QRCode, @GPA, @Batch, @Photo, @Date, @CertificateCode)";
+                            string Cquery = "INSERT INTO certificate (ID, FullName, Collage, Department, QRCode, GPA, Batch, Photo, Date, CertificateCode,SchoolName) " +
+                                "VALUES (@ID, @FullName, @Collage, @Department, @QRCode, @GPA, @Batch, @Photo, @Date, @CertificateCode, @SchoolName)";
                             cmd = new MySqlCommand(Cquery, con);
                             cmd.Parameters.AddWithValue("@ID", studentid);
                             cmd.Parameters.AddWithValue("@FullName", SFullName);
@@ -260,6 +337,7 @@ namespace CVS_G4
                             cmd.Parameters.AddWithValue("@Photo", ususerImageBytes);
                             cmd.Parameters.AddWithValue("@Date", Date);
                             cmd.Parameters.AddWithValue("@CertificateCode", certificateCode);
+                            cmd.Parameters.AddWithValue("@SchoolName", SchoolName);
 
                             cmd.ExecuteNonQuery();
                             report.Show();
@@ -284,9 +362,9 @@ namespace CVS_G4
 
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
-                MessageBox.Show("Please try again."+ ex.Message);
+                MessageBox.Show("Please try again." + ex.Message);
                 reader.Close();
                 return;
             }
@@ -304,7 +382,7 @@ namespace CVS_G4
             //watermark.ImageTransparency = 80; // Optional: 0 = solid, 100 = invisible
             //watermark.ImageAlignment = ContentAlignment.MiddleCenter; // Adjust as needed
             // Show the report
-            
+
         }
 
         private void guna2GradientButton1_Click(object sender, EventArgs e)
@@ -318,6 +396,51 @@ namespace CVS_G4
                     studentImage.Image = new Bitmap(ofd.FileName);
                 }
             }
+        }
+
+        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        {
+            String certificatecodeResult = txtCertificateCodeResult.Text;
+            try
+            {
+                cmd = new MySqlCommand("SELECT * FROM certificate WHERE CertificateCode = @CertificateCode", con);
+                cmd.Parameters.AddWithValue("@CertificateCode", certificatecodeResult);
+                reader = cmd.ExecuteReader();
+                if (reader.Read())
+                {
+                    panvrifayed.Visible = true;
+                    lblHolderName.Text = reader["FullName"].ToString();
+                    lblHolderDepartment.Text = reader["Department"].ToString();
+                    lblHolderGpa.Text = reader["GPA"].ToString();
+                    string CBatch = reader["Batch"].ToString();
+                    lblCSchoolName.Text = reader["SchoolName"].ToString();
+                    byte[] CimageBytes = (byte[])reader["Photo"];
+                    using (MemoryStream ms = new MemoryStream(CimageBytes))
+                    {
+                        CHolderPhoto.Image = Image.FromStream(ms);
+                    }
+                    lblCertificateHDate.Text = reader["Date"].ToString();
+                    reader.Close();
+                }
+                else
+                {
+                    MessageBox.Show("The certificate code is not found! Please try again.");
+                    reader.Close();
+                    return;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("failed! please try again. Error: " + ex.Message);
+            }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            logIn newForm = new logIn();
+            newForm.Show();
         }
     }
 }
