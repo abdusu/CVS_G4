@@ -35,8 +35,6 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -63,10 +61,6 @@
             txtName = new Guna.UI2.WinForms.Guna2TextBox();
             guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             label1 = new Label();
-            userImage = new PictureBox();
-            AdminImage = new PictureBox();
-            logoImage = new PictureBox();
-            guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(components);
             guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -267,43 +261,6 @@
             label1.TabIndex = 0;
             label1.Text = "WELLCOME";
             // 
-            // userImage
-            // 
-            userImage.BackColor = Color.Transparent;
-            userImage.Location = new Point(418, 331);
-            userImage.Name = "userImage";
-            userImage.Size = new Size(100, 90);
-            userImage.SizeMode = PictureBoxSizeMode.StretchImage;
-            userImage.TabIndex = 12;
-            userImage.TabStop = false;
-            userImage.Visible = false;
-            // 
-            // AdminImage
-            // 
-            AdminImage.BackColor = Color.Transparent;
-            AdminImage.Location = new Point(476, 453);
-            AdminImage.Name = "AdminImage";
-            AdminImage.Size = new Size(100, 90);
-            AdminImage.SizeMode = PictureBoxSizeMode.StretchImage;
-            AdminImage.TabIndex = 10;
-            AdminImage.TabStop = false;
-            AdminImage.Visible = false;
-            // 
-            // logoImage
-            // 
-            logoImage.BackColor = Color.Transparent;
-            logoImage.Location = new Point(574, 331);
-            logoImage.Name = "logoImage";
-            logoImage.Size = new Size(100, 90);
-            logoImage.SizeMode = PictureBoxSizeMode.StretchImage;
-            logoImage.TabIndex = 11;
-            logoImage.TabStop = false;
-            logoImage.Visible = false;
-            // 
-            // guna2Elipse1
-            // 
-            guna2Elipse1.TargetControl = this;
-            // 
             // guna2PictureBox2
             // 
             guna2PictureBox2.BackColor = Color.WhiteSmoke;
@@ -374,8 +331,6 @@
             ((System.ComponentModel.ISupportInitialize)AdminImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)logoImage).EndInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).EndInit();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)guna2PictureBox4).EndInit();
             ResumeLayout(false);
         }
 
@@ -394,7 +349,6 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
         private PictureBox AdminImage;
-        private Guna.UI2.WinForms.Guna2ControlBox co;
         private PictureBox logoImage;
         private PictureBox userImage;
     }

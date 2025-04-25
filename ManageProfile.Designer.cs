@@ -29,41 +29,12 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -93,10 +64,11 @@
             guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             manageUserMenu = new Panel();
             guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             startManagePan = new Guna.UI2.WinForms.Guna2Panel();
+            printDocument1 = new System.Drawing.Printing.PrintDocument();
+            printPreviewDialog1 = new PrintPreviewDialog();
             manageMenuBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             guna2Panel2.SuspendLayout();
@@ -478,7 +450,6 @@
             // 
             manageUserMenu.BackColor = Color.FromArgb(5, 34, 50);
             manageUserMenu.Controls.Add(guna2Button7);
-            manageUserMenu.Controls.Add(guna2Button6);
             manageUserMenu.Controls.Add(guna2Button4);
             manageUserMenu.Controls.Add(guna2Button5);
             manageUserMenu.Location = new Point(0, 0);
@@ -492,7 +463,7 @@
             guna2Button7.BackColor = Color.WhiteSmoke;
             guna2Button7.BorderColor = SystemColors.Window;
             guna2Button7.BorderRadius = 4;
-            guna2Button7.CustomizableEdges = customizableEdges77;
+            guna2Button7.CustomizableEdges = customizableEdges135;
             guna2Button7.DisabledState.BorderColor = Color.DarkGray;
             guna2Button7.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button7.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -516,33 +487,6 @@
             guna2Button7.Text = "      Update User Account";
             // 
             // guna2Button6
-            // 
-            guna2Button6.Animated = true;
-            guna2Button6.BackColor = Color.WhiteSmoke;
-            guna2Button6.BorderColor = SystemColors.Window;
-            guna2Button6.BorderRadius = 4;
-            guna2Button6.CustomizableEdges = customizableEdges79;
-            guna2Button6.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button6.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button6.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button6.FillColor = Color.WhiteSmoke;
-            guna2Button6.Font = new Font("Bookman Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button6.ForeColor = Color.Black;
-            guna2Button6.HoverState.FillColor = Color.FromArgb(5, 34, 50);
-            guna2Button6.HoverState.Font = new Font("Bookman Old Style", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            guna2Button6.HoverState.ForeColor = Color.WhiteSmoke;
-            guna2Button6.Image = Properties.Resources.usertransparenticon;
-            guna2Button6.ImageAlign = HorizontalAlignment.Left;
-            guna2Button6.ImageSize = new Size(30, 30);
-            guna2Button6.Location = new Point(3, 189);
-            guna2Button6.Name = "guna2Button6";
-            guna2Button6.PressedColor = Color.FromArgb(0, 192, 192);
-            guna2Button6.PressedDepth = 20;
-            guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges80;
-            guna2Button6.Size = new Size(217, 46);
-            guna2Button6.TabIndex = 5;
-            guna2Button6.Text = "     Delete User Account";
             // 
             // guna2Button4
             // 
@@ -612,12 +556,25 @@
             startManagePan.Size = new Size(1175, 720);
             startManagePan.TabIndex = 40;
             // 
+            // printDocument1
+            // 
+            printDocument1.PrintPage += PrintDocument1_PrintPage;
+            // 
+            // printPreviewDialog1
+            // 
+            printPreviewDialog1.AutoScrollMargin = new Size(0, 0);
+            printPreviewDialog1.AutoScrollMinSize = new Size(0, 0);
+            printPreviewDialog1.ClientSize = new Size(400, 300);
+            printPreviewDialog1.Enabled = true;
+            printPreviewDialog1.Icon = (Icon)resources.GetObject("printPreviewDialog1.Icon");
+            printPreviewDialog1.Name = "printPreviewDialog1";
+            printPreviewDialog1.Visible = false;
+            // 
             // ManageProfile
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1095, 605);
-            Controls.Add(startManagePan);
             Controls.Add(manageUserPan);
             Controls.Add(manageStudentPan);
             Controls.Add(manageMenuBar);
@@ -659,10 +616,35 @@
         private Panel manageStudentMenu;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
         private Guna.UI2.WinForms.Guna2Button guna2Button7;
         private Guna.UI2.WinForms.Guna2Panel startManagePan;
         private Guna.UI2.WinForms.Guna2Button guna2Button9;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel panEditUserProfile;
+        private Guna.UI2.WinForms.Guna2TextBox txtEditUserId;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
+        private Label label1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox picUSER;
+        private Guna.UI2.WinForms.Guna2TextBox txtEditFullName;
+        private Guna.UI2.WinForms.Guna2TextBox txtEditSchoolName;
+        private Label label7;
+        private Guna.UI2.WinForms.Guna2TextBox txtEditPassword;
+        private Label label6;
+        private Guna.UI2.WinForms.Guna2TextBox txtEditUserName;
+        private Label label5;
+        private Guna.UI2.WinForms.Guna2TextBox txtEditSchoolCode;
+        private Label label3;
+        private Guna.UI2.WinForms.Guna2TextBox txtEditAddress;
+        private Label label2;
+        private Guna.UI2.WinForms.Guna2Button btnSaveChange;
+        private Guna.UI2.WinForms.Guna2Button btnDeleteUser;
+        private PictureBox picSCHOOL;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel panViewUSerProfilee;
+        private Guna.UI2.WinForms.Guna2Panel panEditInfo;
+        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox13;
+        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
+        private Guna.UI2.WinForms.Guna2DataGridView dataGridView1;
+        private System.Drawing.Printing.PrintDocument printDocument1;
+        private PrintPreviewDialog printPreviewDialog1;
     }
 }
